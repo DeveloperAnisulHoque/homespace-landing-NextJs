@@ -8,9 +8,9 @@ const SellsPropertiesBanner = () => {
       <div className='container flex flex-col lg:flex-row gap-5'>
    <div className=' lg:w-6/12  space-y-6'>
 
-   <span className='bg-primary/5 border border-primary/10 text-primary rounded-full px-5 py-2 text-sm inline-block'>Our Business</span>
-  <h3 className='text-4xl font-extrabold'>Today Sells Properties</h3>
-  <p className=' text-gray-500'>  Houzez allow you to design unlimited panels and real estate custom <br /> forms to capture leads and keep record of all information
+   <span className='badge'>About Us</span>
+  <h3 className='section-title'>Today Sells Properties</h3>
+  <p className=' subtitle'>  Houzez allow you to design unlimited panels and real estate custom <br /> forms to capture leads and keep record of all information
   </p>
   <div className='space-y-5 py-4'>
 
@@ -18,7 +18,7 @@ const SellsPropertiesBanner = () => {
    <CgEditBlackPoint className='text-black/30 w-6 h-6' />
 
   {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'> Live Music Cocerts at Luviana
+  <p className=' subtitle'> Live Music Cocerts at Luviana
   </p>
 
    </div>
@@ -26,17 +26,7 @@ const SellsPropertiesBanner = () => {
    <CgEditBlackPoint className='text-black/30 w-6 h-6' />
 
   {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'> Our SecretIsland Boat Tour is Just for You
-
-  </p>
-
-   </div>
-   <div className='flex items-center gap-4'>
-   <CgEditBlackPoint className='text-black/30 w-6 h-6' />
-
-  {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'> Live Music Cocerts at Luviana
-
+  <p className=' subtitle'> Our SecretIsland Boat Tour is Just for You
 
   </p>
 
@@ -45,7 +35,7 @@ const SellsPropertiesBanner = () => {
    <CgEditBlackPoint className='text-black/30 w-6 h-6' />
 
   {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'>  Unwind with Live Music Under the Stars at Luviana
+  <p className=' subtitle'> Live Music Cocerts at Luviana
 
 
   </p>
@@ -55,7 +45,8 @@ const SellsPropertiesBanner = () => {
    <CgEditBlackPoint className='text-black/30 w-6 h-6' />
 
   {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'>Live Music Cocerts at Luviana
+  <p className=' subtitle'>  Unwind with Live Music Under the Stars at Luviana
+
 
   </p>
 
@@ -64,7 +55,16 @@ const SellsPropertiesBanner = () => {
    <CgEditBlackPoint className='text-black/30 w-6 h-6' />
 
   {/* <span className='w-4 h-[2px] bg-primary'></span> */}
-  <p className=' text-gray-500'> Experience Live Music Like Never Before at Luviana
+  <p className=' subtitle'>Live Music Cocerts at Luviana
+
+  </p>
+
+   </div>
+   <div className='flex items-center gap-4'>
+   <CgEditBlackPoint className='text-black/30 w-6 h-6' />
+
+  {/* <span className='w-4 h-[2px] bg-primary'></span> */}
+  <p className=' subtitle'> Experience Live Music Like Never Before at Luviana
 
   </p>
 

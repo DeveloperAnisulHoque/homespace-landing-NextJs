@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react'
 import menuData from './menuData'
 import HeaderTop from './HeaderTop'
 import Image from 'next/image'
-import { FaBars, FaChrome, FaSearch, FaStar, FaUser } from 'react-icons/fa'
+import { FaBars, FaChrome, FaHome, FaSearch, FaStar, FaUser } from 'react-icons/fa'
 import { FaBarsStaggered, FaCartShopping } from 'react-icons/fa6'
 import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
 import { IoIosSettings, IoMdMoon, IoMdSunny } from 'react-icons/io'

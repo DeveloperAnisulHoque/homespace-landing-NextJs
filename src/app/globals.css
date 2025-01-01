@@ -14,6 +14,27 @@ body {
 
 .container{
   width: 90%;
-  max-width: 1380px;
+  max-width: 1280px;
   margin: auto;
 }
+
+
+.contact-bg{
+  background-image: url("/images/banner/banner-2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+ }
+
+ .badge{
+  @apply bg-primary/5 border border-primary/10 text-primary rounded-full px-5 py-2 text-sm inline-block
+ }
+ .section-title{
+  @apply  text-2xl  lg:text-4xl font-extrabold
+ }
+ .subtitle{
+  @apply  text-gray-500
+ }
+ .btn{
+  @apply  px-4 py-2  lg:px-8 lg:py-4 text-lg bg-primary text-white  hover:opacity-95
+ }

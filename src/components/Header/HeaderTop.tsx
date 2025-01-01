@@ -38,7 +38,7 @@ North , Uk</span>
         </Link>
  
     </div>
-    <Link href={'https://tunatheme.com/tf/react/quarter-preview/quarter/#/'} target='_blank' className='text-white bg bg-primary hover:bg-opacity-95 duration-150  px-4 py-1 md:py-3 font-medium  text-sm'>Add Listing</Link>
+    <Link href={'/add'} target='_blank' className='text-white bg bg-primary hover:bg-opacity-95 duration-150  px-4 py-1 md:py-3 font-medium  text-sm'>Add Listing</Link>
         </div>
         </div>
   )

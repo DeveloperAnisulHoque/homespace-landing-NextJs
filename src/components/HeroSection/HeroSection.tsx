@@ -38,7 +38,7 @@ className="flex items-center gap-4">
 
 <button
  
-className="  px-4 py-2  lg:px-8 lg:py-4 text-lg bg-primary text-white capitalize hover:opacity-95 ">Make an Enquiry</button>
+className="  btn capitalize ">Make an Enquiry</button>
 <button
  
 className="  w-10 h-10  lg:w-14 lg:h-14 rounded-full bg-white text-primary  flex items-center justify-center shadow-md"><FaPlay className= "  h-4 w-4 lg:w-6 lg:h-6 "/></button>

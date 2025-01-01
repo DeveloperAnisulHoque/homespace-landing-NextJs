@@ -35,7 +35,7 @@ const FindSection = () => {
     <option value="val3">Option 3</option>
   </select>
   
-  <button className="  px-5 lg:px-8    py-2  lg:py-4 text-lg bg-primary text-white   hover:opacity-95  uppercase md:max-w-[270px] w-full   ms-auto">Find Now</button>
+  <button className=" btn uppercase md:max-w-[270px] w-full   ms-auto">Find Now</button>
   
   
   </div>  )
