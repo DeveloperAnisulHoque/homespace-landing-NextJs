@@ -7,7 +7,7 @@ import ContactSection from "@/components/Contact/ContactSection";
 import FindSection from "@/components/FindSection/FindSection";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import StatsSection from "@/components/StatsSection/StatsSection";
-import AOS from 'aos';
+import AOS  from 'aos';
 import 'aos/dist/aos.css'; // Import the styles
 import { useEffect } from "react";
 

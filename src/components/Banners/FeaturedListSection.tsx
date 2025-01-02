@@ -35,7 +35,7 @@ const FeaturedListSection = () => {
             <h2 className="section-title">Discover Latest Properties</h2>
             <p className="subtitle">Newest Properties Around You</p>
             <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-12">
-              <div className=' space-y-4  lg:space-y-6'>
+              <div className=' space-y-2  lg:space-y-4'>
 
                 <div className="p-4 bg-[url('/images/banner/banner-1.jpg')] bg-cover bg-center rounded-xl min-h-52 lg:min-h-64 relative">
                     <div className="flex justify-between gap-10">
@@ -57,7 +57,7 @@ const FeaturedListSection = () => {
                        
                 </div>          
                 
-                <div className='space-y-3 p-4 rounded-b-2xl border-b border-x border-primary/5 shadow  hover:shadow-md duration-200' >
+                <div className='space-y-3 p-4 rounded-2xl border border-primary/5 shadow  hover:shadow-md duration-200' >
                   <h4 className='font-bold hover:text-primary duration-150 cursor-pointer w-fit'>Home in Norway</h4>
                   <p className='flex items-center  font-medium gap-1 text-sm text-gray-500'>  <SlLocationPin className='w-4 h-4 text-primary'/>  Lorem ipsum dolor sit amet consectetur.</p>
                   <span className='font-medium text-sm inline-block'>Vila</span>

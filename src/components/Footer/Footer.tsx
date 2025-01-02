@@ -128,25 +128,25 @@ const Footer = () => {
             </Link>
             <ul className="flex items-center space-x-3 md:order-3">
                 <li>
-                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-primary hover:bg-primary hover:border-primary focus:border-primary">
              <FaFacebook/>
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-primary hover:bg-primary hover:border-primary focus:border-primary">
                    <FaYoutube/>
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-primary hover:bg-primary hover:border-primary focus:border-primary">
               <FaLinkedin/>
                     </Link>
                 </li>
 
                 <li>
-                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-blue-600 hover:bg-blue-600 hover:border-blue-600 focus:border-blue-600">
+                    <Link href="#" title="" className="flex items-center justify-center text-white transition-all duration-200 bg-transparent border border-gray-700 rounded-full w-7 h-7 focus:bg-primary hover:bg-primary hover:border-primary focus:border-primary">
              <FaTwitter/>
                     </Link>
                 </li>
