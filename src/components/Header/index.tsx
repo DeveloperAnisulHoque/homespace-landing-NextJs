@@ -12,6 +12,8 @@ import { MdLogout } from 'react-icons/md'
  import { PiMoonStarsDuotone } from 'react-icons/pi'
 import { useTheme } from 'next-themes'
 import { usePathname } from 'next/navigation'
+import AOS  from 'aos';
+import 'aos/dist/aos.css'; // Import the styles
 
 
 const Header = () => {
@@ -55,6 +57,13 @@ const Header = () => {
     });
 
 
+    useEffect(() => {
+        AOS.init({
+          duration: 1000, // Animation duration (in ms)
+          easing: 'ease-in-out', // Easing option
+          once: true, // Whether animation should happen only once
+        });
+      }, []);
 
 
 
@@ -87,7 +96,7 @@ const Header = () => {
     </button>
 
 
-    <Menu>
+    <Menu  >
           <MenuButton>
  
    
@@ -117,8 +126,8 @@ const Header = () => {
            </div>
             <hr />
             <div>
-       <button className=' flex items-center gap-2 text-sm text-gray-500 font-medium  rounded hover:bg-gray-50 duration-200 hover:text-gray-800 w-ful p-3  w-full '>  <FaUser   className='w-5 h-5' />   Profile View       
-       </button>
+       <Link href={"/my-account"} className=' flex items-center gap-2 text-sm text-gray-500 font-medium  rounded hover:bg-gray-50 duration-200 hover:text-gray-800 w-ful p-3  w-full '>  <FaUser   className='w-5 h-5' />   Profile View       
+       </Link>
        <button className=' flex items-center gap-2 text-sm text-gray-500 font-medium  rounded hover:bg-gray-50 duration-200 hover:text-gray-800 w-ful p-3  w-full '>  <IoIosSettings   className='w-5 h-5' />   Account Settings       
        </button>
 

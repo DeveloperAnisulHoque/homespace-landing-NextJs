@@ -2,16 +2,54 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
- }
+/*--------------------------------------------------------------------------------------------------
+                                      Base Style
+---------------------------------------------------------------------------------------------------*/
+@layer base {
  
-
-body {
+  html {
+    scroll-behavior: smooth;
+  }
+  :root {
+    --primaryBlue: #5f3afc;
+ 
+ 
+  }
+}
+/*--------------------------------------------------------------------------------------------------
+                                      Components Style
+---------------------------------------------------------------------------------------------------*/
+@layer components {
+  .badge{
+    @apply bg-primary/5 border border-primary/10 text-primary rounded-full px-5 py-2 text-sm inline-block
+   }
+   .section-title{
+    @apply  text-2xl  lg:text-4xl font-extrabold
+   }
+   .subtitle{
+    @apply  text-gray-500
+   }
+   .btn{
+    @apply  px-4 py-2  lg:px-8 lg:py-4 text-lg bg-primary text-white  hover:opacity-95
+   }
  
 }
 
+/*--------------------------------------------------------------------------------------------------
+                                      Utilites Style
+---------------------------------------------------------------------------------------------------*/
+@layer utilities {
+  /* CSS Index
+-----------------------------------
+1. Common Section Style
+ 
+ 
 
+*/
+
+  /*--------------------------------------------------------------------------------------------------
+                                      1. Common Section Style
+---------------------------------------------------------------------------------------------------*/
 .container{
   width: 90%;
   max-width: 1280px;
@@ -26,15 +64,14 @@ body {
   background-size: cover;
  }
 
- .badge{
-  @apply bg-primary/5 border border-primary/10 text-primary rounded-full px-5 py-2 text-sm inline-block
- }
- .section-title{
-  @apply  text-2xl  lg:text-4xl font-extrabold
- }
- .subtitle{
-  @apply  text-gray-500
- }
- .btn{
-  @apply  px-4 py-2  lg:px-8 lg:py-4 text-lg bg-primary text-white  hover:opacity-95
- }
+   
+}
+
+
+
+ 
+
+ 
+
+
+ 

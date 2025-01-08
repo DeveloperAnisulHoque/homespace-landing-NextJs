@@ -7,20 +7,10 @@ import ContactSection from "@/components/Contact/ContactSection";
 import FindSection from "@/components/FindSection/FindSection";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import StatsSection from "@/components/StatsSection/StatsSection";
-import AOS  from 'aos';
-import 'aos/dist/aos.css'; // Import the styles
-import { useEffect } from "react";
-
+ 
 export default function Home() {
 
-
-  useEffect(() => {
-    AOS.init({
-      duration: 1000, // Animation duration (in ms)
-      easing: 'ease-in-out', // Easing option
-      once: true, // Whether animation should happen only once
-    });
-  }, []);
+ 
   return (<>
 
  <HeroSection/>

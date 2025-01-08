@@ -10,7 +10,7 @@ const Breadcrumb = ({
 }) => {
     return (
         <>
-            <section className="  pt-[100px]  md:pt-[120px] md:pb-14 pb-7">
+            <section className="  pt-[100px]  md:pt-[120px] md:pb-14 pb-7 bg-secondary">
                 <div className="container space-y-4 md:space-y-7">
 
                     <h2 className="text-2xl md:text-4xl font-bold">

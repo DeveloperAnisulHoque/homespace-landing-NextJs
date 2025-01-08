@@ -1,14 +1,22 @@
+import AOS from "aos";
 import Image from "next/image";
+import { useEffect } from "react";
 import { FaArrowLeft, FaArrowRight, FaHome, FaPause, FaPlay, FaPushed } from "react-icons/fa";
-import { FcHome } from "react-icons/fc";
+import 'aos/dist/aos.css'; // Import the styles
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
-import { HiLocationMarker } from "react-icons/hi";
-import { HiOutlineHomeModern } from "react-icons/hi2";
+
  
 
 
 const HeroSection = () => {
-  return (
+  useEffect(() => {
+    AOS.init({
+      duration: 1000, // Animation duration (in ms)
+      easing: 'ease-in-out', // Easing option
+      once: true, // Whether animation should happen only once
+    });
+  }, []);
+return (
 <section className="bg-secondary  py-[120px] md:py-[150px]  lg:py-[230px]  space-y-4  lg:space-y-8    ">  
  
 <div className="container flex flex-col lg:flex-row lg:items-center gap-6  lg:gap-10   ">
