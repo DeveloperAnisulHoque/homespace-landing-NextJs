@@ -80,8 +80,8 @@ const Footer = () => {
                         Free eBooks </Link>
                     </li>
                     <li>
-                        <Link href="#" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80  flex items-center gap-2 group">                            <span className="opacity-0 group-hover:opacity-100 duration-300 text-white  -ms-5 group-hover:ms-0 group-hover:text-primary"><FaRightLong/></span>
-                        Development Tutorial </Link>
+                        <Link href="/faq" title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80  flex items-center gap-2 group">                            <span className="opacity-0 group-hover:opacity-100 duration-300 text-white  -ms-5 group-hover:ms-0 group-hover:text-primary"><FaRightLong/></span>
+                    Faq </Link>
                     </li>
                     <li>
                         <Link href="https://ultra.realhomes.io/"  target='_blank' title="" className="text-base text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80  flex items-center gap-2 group">                             <span className="opacity-0 group-hover:opacity-100 duration-300 text-white  -ms-5 group-hover:ms-0 group-hover:text-primary"><FaRightLong/></span>
