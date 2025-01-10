@@ -68,7 +68,7 @@ const Header = () => {
     }, []);
 
     useEffect(() => {
-        if (isCartMenu) {
+        if (isCartMenu || isMenu) {
             document.body.style.overflowY = "hidden";
             document.body.style.paddingRight = "15px";
         } else {
@@ -79,7 +79,7 @@ const Header = () => {
             document.body.style.overflowY = "scroll";
             document.body.style.paddingRight = "0px";
         };
-    }, [isCartMenu]);
+    }, [isCartMenu,isMenu]);
 
     return (
 

@@ -1,4 +1,6 @@
 "use client"
+import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
 import { FaCamera, FaHeart } from 'react-icons/fa';
 import { SlLocationPin } from 'react-icons/sl';
@@ -7,7 +9,7 @@ import { SlLocationPin } from 'react-icons/sl';
 
 const FeaturedListSection = () => {
   const [gallary, setGallary] = useState(false);
-
+const router =useRouter()
   useEffect(() => {
     // Automatically open the gallery on component mount
     setGallary(true);
@@ -22,7 +24,9 @@ const FeaturedListSection = () => {
             <div className="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-12">
               <div className=' space-y-2  lg:space-y-4'>
 
-                <div className="p-4 bg-[url('/images/banner/banner-1.jpg')] bg-cover bg-center rounded-xl min-h-52 lg:min-h-64 relative">
+                <div
+                onClick={()=>router.push("/product-details")}
+                className="p-4 bg-[url('/images/banner/banner-1.jpg')] bg-cover bg-center rounded-xl min-h-52 lg:min-h-64 relative">
                     <div className="flex justify-between gap-10">
                         <div className="flex-1 flex gap-2 items-center flex-wrap">
                             <span className="px-3 py-1 bg-white font-medium rounded-full text-gray-700 text-sm">For Sale</span>
@@ -43,7 +47,7 @@ const FeaturedListSection = () => {
                 </div>          
                 
                 <div className='space-y-3 p-4 rounded-2xl border border-primary/5 shadow  hover:shadow-md duration-200' >
-                  <h4 className='font-bold hover:text-primary duration-150 cursor-pointer w-fit'>Home in Norway</h4>
+                  <Link href={"/product-details"} className='font-bold hover:text-primary duration-150 cursor-pointer w-fit'>Home in Norway</Link>
                   <p className='flex items-center  font-medium gap-1 text-sm text-gray-500'>  <SlLocationPin className='w-4 h-4 text-primary'/>  Lorem ipsum dolor sit amet consectetur.</p>
                   <span className='font-medium text-sm inline-block'>Vila</span>
                   <h3 className='text-lg font-bold'>$450.00</h3>
