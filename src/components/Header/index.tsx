@@ -4,10 +4,10 @@ import React, { useEffect, useState } from 'react'
 import menuData from './menuData'
 import HeaderTop from './HeaderTop'
 import Image from 'next/image'
-import { FaBars, FaChrome, FaHome, FaSearch, FaStar, FaUser, FaWindowClose } from 'react-icons/fa'
+import { FaBars,   FaSearch, FaUser } from 'react-icons/fa'
 import { FaBarsStaggered, FaCartShopping } from 'react-icons/fa6'
-import { Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react';
-import { IoIosSettings, IoMdMoon, IoMdSunny } from 'react-icons/io'
+import { Menu, MenuButton, MenuItems } from '@headlessui/react';
+import { IoIosSettings,   IoMdSunny } from 'react-icons/io'
 import { MdLogout } from 'react-icons/md'
 import { PiMoonStarsDuotone } from 'react-icons/pi'
 import { useTheme } from 'next-themes'

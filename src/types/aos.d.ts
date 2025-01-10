@@ -1,7 +1,8 @@
 declare module 'aos' {
-    const AOS: {
-      init: (options?: any) => void;
-    };
-    export default AOS;
-  }
+  import { AosOptions } from 'aos';
   
+  const AOS: {
+    init: (options?: AosOptions) => void;
+  };
+  export default AOS;
+}

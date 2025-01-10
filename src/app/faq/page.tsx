@@ -28,7 +28,7 @@ const faqContent = [
     },
 ]
 
-const page = () => {
+const Page = () => {
     const [active, setActive] = useState(1)
     return (
         <div>
@@ -76,4 +76,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page

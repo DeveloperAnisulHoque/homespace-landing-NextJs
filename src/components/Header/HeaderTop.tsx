@@ -2,7 +2,6 @@ import Link from 'next/link'
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import { MdEmail, MdLocationPin } from 'react-icons/md'
-import { TbBuildingEstate } from 'react-icons/tb'
 
 const HeaderTop = () => {
     return (

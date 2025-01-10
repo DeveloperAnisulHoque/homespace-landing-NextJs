@@ -1,7 +1,7 @@
 import AOS from "aos";
 import Image from "next/image";
 import { useEffect } from "react";
-import { FaArrowLeft, FaArrowRight, FaHome, FaPause, FaPlay, FaPushed } from "react-icons/fa";
+import { FaHome, FaPlay } from "react-icons/fa";
 import 'aos/dist/aos.css'; // Import the styles
 import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 

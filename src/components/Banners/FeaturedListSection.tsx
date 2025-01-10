@@ -1,24 +1,9 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { FaCamera, FaHeart } from 'react-icons/fa';
-import CustomGallery from '../CustomGallary/CustomGallary';
-import { FaLocationPin } from 'react-icons/fa6';
 import { SlLocationPin } from 'react-icons/sl';
  
-const images = [
-  {
-      full: '/images/banner/banner-1.jpg',
-      thumb: '/images/banner/banner-1.jpg',
-  },
-  {
-      full: '/images/banner/banner-2.jpg',
-      thumb: '/images/banner/banner-2.jpg',
-  },
-  {
-      full: '/images/banner/banner-3.jpg',
-      thumb: '/images/banner/banner-3.jpg',
-  },
-];
+ 
 
 const FeaturedListSection = () => {
   const [gallary, setGallary] = useState(false);
@@ -68,15 +53,7 @@ const FeaturedListSection = () => {
 
             </div>
         </div>
-{/* 
-        {gallary && (
-            <CustomGallery 
-                images={images} 
-                speed={500} 
-                isOpen={gallary} 
-                setIsOpen={setGallary} 
-            />
-        )} */}
+ 
 
     
     </div>
